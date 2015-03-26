@@ -27,7 +27,7 @@ package com.koma.utils
 			return _loc_1.toString();
 		}// end function
 		
-		private static function calculate(param1:String) : String
+		public static function calculate(param1:String) : String
 		{
 			return hex_sha1(param1);
 		}// end function

@@ -74,9 +74,9 @@ package com.oms.tpv1.model
 		
 		
 		
-		//public static const SKINURL_DEFAULT_V4:String = "http://player.kksmg.com/data/player_swf/PlayerSkinV4c.swf";//当前应用的皮肤
+		public static const SKINURL_DEFAULT_V4:String = "http://player.kksmg.com/data/player_swf/PlayerSkinV4c.swf";//当前应用的皮肤
 		
-		public static const SKINURL_DEFAULT_V4:String = "http://172.24.26.32/flash/skin/sm.swf";//当前应用的皮肤
+//		public static const SKINURL_DEFAULT_V4:String = "http://172.24.26.32/flash/skin/sm.swf";//当前应用的皮肤
 		
 		//PlayerSkinV6.swf
 		

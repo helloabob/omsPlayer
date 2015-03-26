@@ -6,8 +6,6 @@ package com.oms.tpv1.media
 	public interface IVideoPlayer extends IEventDispatcher
 	{
 		
-		public function IVideoPlayer();
-		
 		function setVideoData(param1:VideoPlayData) : void;
 		
 		function getVideoData() : VideoPlayData;
