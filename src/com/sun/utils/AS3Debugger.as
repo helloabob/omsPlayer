@@ -22,6 +22,8 @@ package com.sun.utils
 		
 		public static function Trace(param1:*, param2:String = "") : void
 		{
+			/*增加内部输出*/
+			trace(param1);
 			if (!AS3Debugger.OmitTrace)
 			{
 				return;

@@ -78,7 +78,6 @@ package com.oms.tpv1.managers
 			
 
 			
-			var event:* = event;
 			this.playerSkin.removeEventListener(SkinEvent.SKIN_COMPLETE, this.completeHandler);
 			this.playerSkin.removeEventListener(SkinEvent.SKIN_ERROR, this.errorHandler);
 			

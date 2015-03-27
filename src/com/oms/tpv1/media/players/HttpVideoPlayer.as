@@ -8,17 +8,14 @@ package com.oms.tpv1.media.players
 	import com.oms.report.*;
 	import com.oms.tpv1.events.*;
 	import com.oms.tpv1.managers.*;
-	import com.oms.tpv1.media.*;
 	import com.oms.tpv1.media.players.*;
 	import com.oms.tpv1.model.*;
 	import com.oms.tpv1.utils.*;
 	import com.sun.utils.*;
 	
 	import flash.events.*;
-	import flash.external.ExternalInterface;
 	import flash.geom.*;
 	import flash.media.*;
-	import flash.net.*;
 	import flash.utils.*;
 	
 	
@@ -1163,7 +1160,6 @@ package com.oms.tpv1.media.players
 			var starttime:Number;
 			var i:int;
 			var newmode:VideoPlayModeV3;
-			var event:* = event;
 			var info:* = event.value;
 			/*
 			trace('---------------状态报告----------------');

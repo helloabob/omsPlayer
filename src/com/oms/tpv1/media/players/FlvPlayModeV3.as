@@ -7,7 +7,6 @@ package com.oms.tpv1.media.players
 	import com.oms.tpv1.media.stream.*;
 	import com.oms.tpv1.model.*;
 	import com.oms.tpv1.utils.*;
-	import com.oms.utils.*;
 	import com.oms.utils.timer.*;
 	import com.oms.videov3.media.*;
 	import com.sun.media.video.*;
@@ -503,7 +502,6 @@ package com.oms.tpv1.media.players
 		protected function startToPlayHandler(event:StreamEvent) : void
 		{
 			var time:Number;
-			var event:* = event;
 			clearTimeout(this._timeoutCount);
 			this._stream.removeEventListener(StreamEvent.STREAM_START_PLAY, this.startToPlayHandler);
 			if (!this._stream.hasEventListener(StreamEvent.STREAM_EMPTY))

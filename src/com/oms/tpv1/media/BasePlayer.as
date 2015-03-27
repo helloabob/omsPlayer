@@ -248,7 +248,7 @@ package com.oms.tpv1.media
 		
 		
 		
-		
+		/*加载播放器皮肤*/
 		protected function loadSkin() : void{
 			
 			
@@ -278,7 +278,7 @@ package com.oms.tpv1.media
 			this.skinManager.removeEventListener(SkinManagerV3Event.SKIN_LOAD_COMPLETE, this.skinloadCompleteHandler);
 			this.skinManager.removeEventListener(SkinManagerV3Event.SKIN_LOAD_ERROR, this.skinloadErrorHandler);
 			
-			//报告皮肤载入完成,统计播放器载入时间,这个可以反馈给用户下载速度
+			//报告皮肤载入完成,统计播放器载入时间,这个可以反馈用户下载速度
 			ReportManager.addReport(ReportManager.createReportMode(ReportManager.STEP_LOAD_SKIN, getTimer() - this.rpt_playerinit, 1, 0));
 			
 			

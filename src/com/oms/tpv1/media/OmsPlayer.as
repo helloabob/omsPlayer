@@ -19,7 +19,6 @@
 	import flash.text.*;
 	import flash.ui.*;
 	import flash.utils.*;
-	import com.oms.report.*;
 	
 	public class OmsPlayer extends BasePlayer
 	{
@@ -124,12 +123,16 @@
 				this._fld.load(this.xml_path, "URLRequest", URLLoaderDataFormat.TEXT, "", "POST");
 				
 			}else if(GlobalVars.omsid>0){
+				/*vid = omsid
+				皮肤更换
+				国际化确定
+				*/
 					this.outerParamsInit();
 				
 			}
 			
+			
 			if(GlobalVars.xmlid != "" || GlobalVars.omsid>0){
-				
 				dispatchEvent(new Event("showMedia"));
 				
 				
@@ -152,7 +155,6 @@
 			
 			
 			var _loc_3:*;
-			var event:* = event;
 			var _loc_5:Boolean;
 			var _loc_6:* = undefined;
 			var _loc_7:String;
@@ -234,7 +236,6 @@
 		
 		private function addedToStage(event:Event) : void
 		{
-			
 			
 			//ReportManager.getReporttime('addedToStage');
 			dispatchEvent(new Event("showMedia"));
